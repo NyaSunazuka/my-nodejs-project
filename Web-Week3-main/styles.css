@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro h2 {
+    color: #4CAF50;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.place-detail, .shops, .markets, .photo-spots {
+    margin-bottom: 2rem;
+}
+
+.place, .shop, .market, .photo-spot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.place img, .shop img, .market img, .photo-spot img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+
+.place-text, .shop-info, .market-info, .spot-info {
+    width: 60%;
+}
+
+.place-text h3, .shop-info h3, .market-info h3, .spot-info h3 {
+    color: #4CAF50;
+    margin-top: 1rem;
+}
+
+.iframe-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
