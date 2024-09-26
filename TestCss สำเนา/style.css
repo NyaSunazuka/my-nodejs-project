@@ -1,0 +1,43 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-template-rows: 100px 200px 200px;
+    gap: 30px;
+}
+
+.first{
+    grid-column: span 2;
+}
+
+.card{
+    background-color: blue;
+}
+
+@media (max-width: 680px) {
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto; 
+        grid-template-rows: 100px 200px 200px 200px;
+        gap: 30px;
+        
+    }
+    
+    .first{
+        grid-column: span 2;
+    }
+    .four{
+        grid-column: span 2;
+    }
+    .five{
+        grid-column: span 2;
+
+    }
+    
+    .card{
+        background-color: blue;
+    }
+    
+    
+}
